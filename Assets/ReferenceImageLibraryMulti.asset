@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: ReferenceImageLibraryMulti
+  m_EditorClassIdentifier: 
+  m_GuidLow: 4760859164662548128
+  m_GuidHigh: 13195826134649607317
+  m_DataStore:
+    m_Storage: []
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 5539674192607647895
+      m_GuidHigh: 13831522921221683340
+    m_SerializedTextureGuid:
+      m_GuidLow: 16916648046662809705
+      m_GuidHigh: 5640488392555290154
+    m_Size: {x: 1, y: 1.0011123}
+    m_SpecifySize: 1
+    m_Name: earth
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4994843000536805297
+      m_GuidHigh: 8209083232547092889
+    m_SerializedTextureGuid:
+      m_GuidLow: 3104366140550437143
+      m_GuidHigh: 5519509021124304313
+    m_Size: {x: 1, y: 0.66503906}
+    m_SpecifySize: 1
+    m_Name: flower
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5680903305200170274
+      m_GuidHigh: 5571861765810497170
+    m_SerializedTextureGuid:
+      m_GuidLow: 13593241447586164906
+      m_GuidHigh: 12420033553130035770
+    m_Size: {x: 1, y: 1}
+    m_SpecifySize: 1
+    m_Name: unity
+    m_Texture: {fileID: 0}

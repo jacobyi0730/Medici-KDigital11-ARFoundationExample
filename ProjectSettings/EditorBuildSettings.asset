@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/MarkerMultiScene.unity
+    guid: 3df9d0af788deed4c97001e11f51cd7d
+  - enabled: 0
     path: Assets/Scenes/FaceScene.unity
     guid: 11b14ce2bc7c8724bb3679d98e3cd535
   - enabled: 0
