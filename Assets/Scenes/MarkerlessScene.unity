@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 70705896}
   - component: {fileID: 70705895}
   - component: {fileID: 70705894}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -395,6 +395,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6812cd4d81c34a7428bd54389d699f02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  arCameraObj: {fileID: 1754319443}
+  unityCameraObj: {fileID: 153888133}
+  unityGroundObj: {fileID: 70705893}
+  indicator: {fileID: 1698667855}
+  unitFactory: {fileID: 2795397902362475942, guid: 72c47fdc43d84b243bdc109c284341d6, type: 3}
+  unitMaxCount: 2
 --- !u!114 &1088765264
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -541,13 +547,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1698667856}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Indicator
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1698667856
 Transform:
   m_ObjectHideFlags: 0
@@ -578,7 +584,6 @@ GameObject:
   - component: {fileID: 1754319447}
   - component: {fileID: 1754319446}
   - component: {fileID: 1754319445}
-  - component: {fileID: 1754319450}
   m_Layer: 0
   m_Name: AR Camera
   m_TagString: MainCamera
@@ -695,18 +700,6 @@ Transform:
   m_Father: {fileID: 1088765266}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1754319450
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1754319443}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 41b5ce68f72d4c4459ecf2ae8d8bf22f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1984532291
 GameObject:
   m_ObjectHideFlags: 0
@@ -719,7 +712,7 @@ GameObject:
   - component: {fileID: 1984532295}
   - component: {fileID: 1984532294}
   - component: {fileID: 1984532293}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: I
   m_TagString: Untagged
   m_Icon: {fileID: 0}
